@@ -3,7 +3,7 @@
 + data: GDSC dataset
 
 ###  source codes:
-+ create_data.py: create data in pytorch format
++ preprocess.py: create data in pytorch format
 + utils.py: include TestbedDataset used by create_data.py to create data, performance measures and functions to draw loss, pearson by epoch.
 + models/ginconv.py, gat.py, gat_gcn.py, and gcn.py: proposed models GINConvNet, GATNet, GAT_GCN, and GCNNet receiving graphs as input for drugs.
 + training.py: train a GraphDRP model.
